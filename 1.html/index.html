@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#" style="margin-left: 50px;">Pasteleria Michoacana</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#pasteles">pasteles </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pedido.html">Personalizar Pastel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            
+          </ul>
+          <a href="admi.html">Administrador</a>
+
+        </div>
+      </nav>
+    </header>
+
+
+   
+      
+<section class="banner">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100"  src="./img/banner1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/banner.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/banner1.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/banner.png" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </section>
+<section style="margin:20px">
+   <hr>
+    <h1 style="text-align:center" id="pasteles"> Menu</h1>
+    <hr>
+    <h3 class="sabor">Zanahoria</h3>
+      <div class="contenedor">
+            <div class="card elemento" style="width: 18rem;">
+              <img class="card-img-top imgpasteles" src="./img/zanahoria.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Pastel de zanahoria para Cumpleaños</h5>
+                <h5 class="card-text precio">Precio $350</h5>
+                <ul>
+                  <span style="margin: 0px;">Adornos</span>
+                  <li>Flores +$20</li>
+                  <li>Juguete +$30</li>
+                  <li>Fresas +$30</li>
+                  <li>Dibujo especial +$50</li>
+                </ul>
+                <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+              </div>
+            </div>
+            <div class="card elemento" style="width: 18rem;">
+              <img class="card-img-top imgpasteles" src="./img/zana.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Pastel de zanahoria para Boda</h5>
+                <h5 class="card-text precio">Precio $1150</h5>
+                <ul>
+                  <span style="margin: 0px;">Adornos</span>
+                  <li>Flores +$60</li>
+                  <li>Juguete +$90</li>
+                  <li>Fresas +$90</li>
+                  <li>Dibujo especial +$150</li>
+                </ul>
+                <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+              </div>
+            </div>
+
+            <div class="card elemento" style="width: 18rem;">
+              <img class="card-img-top imgpasteles" src="./img/paizan.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Pay de zanahoria con crema</h5>
+                <h5 class="card-text precio">Precio $250</h5>
+                <ul>
+                  <span style="margin: 0px;">Adornos</span>
+                  <li>Flores +$20</li>
+                  <li>Juguete +$30</li>
+                  <li>Fresas +$30</li>
+                  <li>Dibujo especial +$50</li>
+                </ul>
+                <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+              </div>
+            </div>
+
+            <div class="card elemento" style="width: 18rem;">
+              <img class="card-img-top imgpasteles" src="./img/panque.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">panque de zanahoria grande con crema</h5>
+                <h5 class="card-text precio">Precio $70</h5>
+                <ul>
+                  <span style="margin: 0px;">Adornos</span>
+                  <li>Flores +$20</li>
+                  <li>Juguete +$30</li>
+                  <li>Fresas +$30</li>
+                  <li>Dibujo especial +$50</li>
+                </ul>
+                <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+              </div>
+            </div>
+
+    </div>
+
+
+
+    <hr>
+    <h2  class="sabor">Chocolate</h2>
+    <div class="contenedor">
+      <div class="card elemento" style="width: 18rem;">
+        <img class="card-img-top imgpasteles" src="./img/pastelchocolate.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pastel de chocolate para Cumpleaños</h5>
+          <h5 class="card-text precio">Precio $350</h5>
+          <ul>
+            <span style="margin: 0px;">Adornos</span>
+            <li>Flores +$20</li>
+            <li>Juguete +$30</li>
+            <li>Fresas +$30</li>
+            <li>Dibujo especial +$50</li>
+          </ul>
+          <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+        </div>
+      </div>
+      <div class="card elemento" style="width: 18rem;">
+        <img class="card-img-top imgpasteles" src="./img/chocoboda.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pastel de chocolate para Boda</h5>
+          <h5 class="card-text precio">Precio $1550</h5>
+          <ul>
+            <span style="margin: 0px;">Adornos</span>
+            <li>Flores +$60</li>
+            <li>Juguete +$90</li>
+            <li>Fresas +$90</li>
+            <li>Dibujo especial +$150</li>
+          </ul>
+          <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+
+        </div>
+      </div>
+
+      <div class="card elemento" style="width: 18rem;">
+        <img class="card-img-top imgpasteles" src="./img/paizan.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pay de chocolate con crema</h5>
+          <h5 class="card-text precio">Precio $250</h5>
+          <ul>
+            <span style="margin: 0px;">Adornos</span>
+            <li>Flores +$20</li>
+            <li>Juguete +$30</li>
+            <li>Fresas +$30</li>
+            <li>Dibujo especial +$50</li>
+          </ul>
+           <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+        </div>
+      </div>
+
+      <div class="card elemento" style="width: 18rem;">
+        <img class="card-img-top imgpasteles" src="./img/panquechoco.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">panque de chocolate grande con crema</h5>
+          <h5 class="card-text precio">Precio $70</h5>
+          <ul>
+            <span style="margin: 0px;">Adornos</span>
+            <li>Flores +$20</li>
+            <li>Juguete +$30</li>
+            <li>Fresas +$30</li>
+            <li>Dibujo especial +$50</li>
+          </ul>
+           <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+        </div>
+      </div>
+
+</div>
+
+
+<hr>
+    <h3  class="sabor">Coco</h3>
+    <div class="contenedor">
+      <div class="card elemento" style="width: 18rem;">
+        <img class="card-img-top imgpasteles" src="./img/pastelcoco.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pastel de coco para Cumpleaños</h5>
+          <h5 class="card-text precio">Precio $350</h5>
+          <ul>
+            <span style="margin: 0px;">Adornos</span>
+            <li>Flores +$20</li>
+            <li>Juguete +$30</li>
+            <li>Fresas +$30</li>
+            <li>Dibujo especial +$50</li>
+          </ul>
+           <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+        </div>
+      </div>
+      <div class="card elemento" style="width: 18rem;">
+        <img class="card-img-top imgpasteles" src="./img/pastelboda.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pastel de Coco para Boda</h5>
+          <h5 class="card-text precio">Precio $1150</h5>
+          <ul>
+            <span style="margin: 0px;">Adornos</span>
+            <li>Flores +$60</li>
+            <li>Juguete +$90</li>
+            <li>Fresas +$90</li>
+            <li>Dibujo especial +$150</li>
+          </ul>
+           <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+        </div>
+      </div>
+
+      <div class="card elemento" style="width: 18rem;">
+        <img class="card-img-top imgpasteles" src="./img/paycoco.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pay de coco con crema</h5>
+          <h5 class="card-text precio">Precio $250</h5>
+          <ul>
+            <span style="margin: 0px;">Adornos</span>
+            <li>Flores +$20</li>
+            <li>Juguete +$30</li>
+            <li>Fresas +$30</li>
+            <li>Dibujo especial +$50</li>
+          </ul>
+           <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+        </div>
+      </div>
+
+      <div class="card elemento" style="width: 18rem;">
+        <img class="card-img-top imgpasteles" src="./img/panquecoco.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">panque de coco grande con crema</h5>
+          <h5 class="card-text precio">Precio $70</h5>
+          <ul>
+            <span style="margin: 0px;">Adornos</span>
+            <li>Flores +$20</li>
+            <li>Juguete +$30</li>
+            <li>Fresas +$30</li>
+            <li>Dibujo especial +$50</li>
+          </ul>
+           <a type="button" class="btn btn-primary btn-block" href="pedido.html">Pedir</a>
+        </div>
+      </div>
+
+</div>
+
+    
+
+</section>
+
+<footer class="text-center text-lg-start bg-white text-muted" id="contacto">
+
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+   
+  </section>
+
+    <div class="container text-center text-md-start mt-5">
+ 
+      <div class="row mt-3">
+   
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          
+          <h1 class="text-uppercase fw-bold mb-4">
+           Pasteleria Michoacana
+          </h1>
+         
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            pasteles
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">zanahoria</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">coco</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Chocolate</a>
+          </p>
+        
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Horario
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Lunes - sabado</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">9 am- 8 pm</a>
+          </p>
+      
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Morelia ,Michoacan</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            pasteleria
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> 753 142 8759</p>
+       
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 202 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Francisco Peñaloza</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>

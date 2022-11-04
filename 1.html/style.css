@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.precio{
+    color: rgba(255, 0, 0, 0.493);
+}
+.precio:hover{
+    color: rgba(14, 51, 218, 0.678);
+}
+.sabor{
+    margin-left: 20px;
+    text-align:center
+}
+.imgpasteles{
+    height: 150px;
+}
+.pedidoform{
+    margin-top: 50px;
+    width: ;
+    padding: 2px;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pedidos{
+   background: rgba(218, 220, 224, 0.788);
+   border-width: medium;
+   border-color: #000000;
+    border: 2px solid #000000;
+    padding: 50px;
+    
+    margin: 5px;
+    border: 5px;
+   
+}
